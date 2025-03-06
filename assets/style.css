@@ -1,0 +1,104 @@
+:root {
+    --bs-white: #F9F9F9;
+    --bs-violet: #5C4EAE;
+    --btn-hv-violet: #8075c0;
+    --ln-gray: #CBCBCB;
+    --bs-green: #005128;
+    --tx-black:#201F1F;
+    --bs-yellow: #F59E0B;
+    --txt-grey: #606060;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bs-white);
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    color: var(--bs-violet);
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-link {
+    font-family: 'Inter', sans-serif;
+    color: var(--txt-grey)!important;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 27px;
+    text-space: 27px;
+    letter-spacing: 0;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--btn-hv-violet)!important;
+}
+
+.btn-login {
+    font-family: 'Inter', sans-serif;
+    color: var(--txt-grey)!important;
+    padding-x: 26px!important;
+    padding-y: 17px!important;
+    border-radius: 18px!important;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 27px;
+    text-space: 27px;
+    letter-spacing: 0;
+}
+
+.btn-login:focus, .btn-login:hover {
+
+}
+
+.btn-signup {
+    font-family: 'Inter', sans-serif;
+    color: var(--bs-white)!important;
+    background-color: var(--bs-violet)!important;
+    padding-x: 26px!important;
+    padding-y: 17px!important;
+    border-radius: 18px!important;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 27px;
+    text-space: 27px;
+    letter-spacing: 0;
+}
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media (min-width: 1024px) and (max-width: 1920px) {
+}
