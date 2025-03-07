@@ -7,6 +7,7 @@
     --tx-black:#201F1F;
     --bs-yellow: #F59E0B;
     --txt-grey: #606060;
+    --txt-p-grey: #676767;
 }
 
 header {
@@ -28,6 +29,11 @@ h1 {
     font-weight: 600!important;
     letter-spacing: 1.5px!important;
     color: var(--tx-black)!important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .navbar {
@@ -91,6 +97,28 @@ h1 {
     line-height: 27px;
     text-space: 27px;
     letter-spacing: 0;
+}
+
+.over {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    color: var(--tx-black)!important;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.indigo {
+    color: var(--bs-violet)!important;
+}
+
+.intro-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    color: var(--txt-p-grey);
 }
 @media (min-width: 320px) {
 
