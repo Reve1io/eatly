@@ -147,9 +147,13 @@ background-color: var(--bs-violet);
     background-color: var(--divider-grey);
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     .trustpilot {
         justify-content: center;
+    }
+
+    .statistic {
+        border-bottom: 1px solid var(--divider-grey);
     }
 }
 
@@ -157,11 +161,19 @@ background-color: var(--bs-violet);
     .trustpilot {
         justify-content: center;
     }
+
+    .statistic {
+        border-bottom: 1px solid var(--divider-grey);
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .trustpilot {
         justify-content: center;
+    }
+
+    .statistic {
+        border-right: 1px solid var(--divider-grey);
     }
 }
 
@@ -169,10 +181,18 @@ background-color: var(--bs-violet);
     .trustpilot {
         justify-content: left;
     }
+
+    .statistic {
+        border-right: 1px solid var(--divider-grey);
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1920px) {
     .trustpilot {
         justify-content: left;
+    }
+
+    .statistic {
+        border-right: 1px solid var(--divider-grey);
     }
 }
