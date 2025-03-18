@@ -22,7 +22,7 @@ header {
 
 h1 {
     font-family: 'Poppins', sans-serif!important;
-    font-size: 3rem!important;
+    font-size: 5rem;
     font-weight: 600!important;
     letter-spacing: 1.5px!important;
     color: var(--tx-black)!important;
@@ -110,10 +110,10 @@ img {
     color: var(--bs-violet)!important;
 }
 
-.intro-text {
+.text {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: 0;
     color: var(--txt-p-grey);
 }
@@ -147,6 +147,18 @@ background-color: var(--bs-violet);
     background-color: var(--divider-grey);
 }
 
+.card {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    border-radius: 23px!important;
+    border: none;
+}
+
+.card-img-top {
+    border-top-left-radius: 23px!important;
+    border-top-right-radius: 23px!important;
+}
+
 @media (max-width: 320px) {
     .trustpilot {
         justify-content: center;
@@ -155,6 +167,10 @@ background-color: var(--bs-violet);
     .statistic {
         border-bottom: 1px solid var(--divider-grey);
     }
+    .h1 {
+        font-size: 3rem;
+    }
+
 }
 
 @media (min-width: 321px) and (max-width: 767px) {
@@ -164,6 +180,10 @@ background-color: var(--bs-violet);
 
     .statistic {
         border-bottom: 1px solid var(--divider-grey);
+    }
+
+    .h1 {
+        font-size: 3.5rem;
     }
 }
 
