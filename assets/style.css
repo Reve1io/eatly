@@ -10,6 +10,13 @@
     --txt-grey: #606060;
     --txt-p-grey: #676767;
     --divider-grey: #C5C5C5;
+    --txt-dark-gold: #DAA31A;
+    --btn-highlight-bg-yellow: #F7EDD0;
+    --txt-tomato-red: #FB471D;
+    --btn-highlight-bg-red: #F7C5BA;
+    --txt-view-grey: #ACADB9;
+
+
 }
 
 header {
@@ -159,6 +166,36 @@ background-color: var(--bs-violet);
     border-top-right-radius: 23px!important;
 }
 
+.card-body p {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
+.card-highlight-yellow {
+    color: var(--txt-dark-gold)!important;
+    background-color: var(--btn-highlight-bg-yellow)!important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.card-highlight-red {
+    color: var(--txt-tomato-red)!important;
+    background-color: var(--btn-highlight-bg-red)!important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.view {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 32px;
+    letter-spacing: -0.07px;
+    color: var(--txt-view-grey);
+}
+
 @media (max-width: 320px) {
     .trustpilot {
         justify-content: center;
@@ -168,9 +205,12 @@ background-color: var(--bs-violet);
         border-bottom: 1px solid var(--divider-grey);
     }
     .h1 {
-        font-size: 3rem;
+        font-size: 3rem!important;
     }
 
+    .card {
+        margin-bottom: 40px;
+    }
 }
 
 @media (min-width: 321px) and (max-width: 767px) {
@@ -183,7 +223,11 @@ background-color: var(--bs-violet);
     }
 
     .h1 {
-        font-size: 3.5rem;
+        font-size: 3rem!important;
+    }
+
+    .card {
+        margin-bottom: 40px;
     }
 }
 
@@ -194,6 +238,10 @@ background-color: var(--bs-violet);
 
     .statistic {
         border-right: 1px solid var(--divider-grey);
+    }
+
+    .card {
+        margin-bottom: 40px;
     }
 }
 
