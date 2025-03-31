@@ -257,6 +257,10 @@ background-color: var(--bs-violet);
     .card {
         margin-bottom: 40px;
     }
+
+    .cards-dishes {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {

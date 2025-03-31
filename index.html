@@ -15,7 +15,7 @@
 </head>
 <body>
 
-    <header class="container d-block col-xxl-8 px-4">
+    <header class="container d-block col-xxl-12 px-4">
         <Nav class="navbar navbar-expend-lg w-auto d-flex justify-content-between p-3 px-3 border-bottom">
             <a href="#" class="navbar-brand">
                 <img src="assets/image/logo.svg" width="46" height="42" alt=""/>
@@ -152,7 +152,7 @@
         <section class="dishes container col-xxl-8 px-4 pb-5 border-top border-bottom">
             <h1 class="text-center my-4 py-5">Our Top <span class="indigo">Dishes</span></h1>
             <div class="cards-dishes d-grid gap-3">
-                <div class="card">
+                <div class="card border-0 shadow">
                     <img src="assets/image/cards/Food%20Image.svg" class="card-img-top" width="130" height="auto" alt="" />
                     <img src="assets/image/icons/heart.svg" class="position-absolute m-2" width="30" height="auto" alt="" />
                     <div class="card-body">
@@ -169,7 +169,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card border-0 shadow">
                     <img src="assets/image/cards/Food%20Image1.svg" class="card-img-top" width="130" height="auto" alt="" />
                     <img src="assets/image/icons/heart.svg" class="position-absolute m-2" width="30" height="auto" alt="" />
                     <div class="card-body">
@@ -186,7 +186,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card border-0 shadow">
                     <img src="assets/image/cards/Food%20Image2.svg" class="card-img-top" width="130" height="auto" alt="" />
                     <img src="assets/image/icons/heart.svg" class="position-absolute m-2" width="30" height="auto" alt="" />
                     <div class="card-body">
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card border-0 shadow">
                     <img src="assets/image/cards/Food%20Image.svg" class="card-img-top" width="130" height="auto" alt="" />
                     <img src="assets/image/icons/heart.svg" class="position-absolute m-2" width="30" height="auto" alt="" />
                     <div class="card-body">
@@ -223,6 +223,84 @@
             </div>
             <div class="text-center text-lg-end my-2 py-2">
                 <span class="view my-5 py-4">View all ➔</span>
+            </div>
+        </section>
+
+        <section class="control container col col-xxl-8 px-4 pb-5 border-top border-bottom">
+            <div class="row d-block d-lg-flex justify-content-between">
+                <div class="d-block col col-lg-6">
+                    <h1 class="my-4 py-5 text-center">Control Purchases <span class="indigo">Via</span> Dashboard</h1>
+                    <div class="purchase p-1 my-2 d-flex justify-content-start border rounded shadow">
+                        <img src="assets/image/menuMini/Image.svg" class="mx-3 rounded-pill" width="70" height="auto" alt="" />
+                        <div class="w-auto mt-3">
+                            <h5>Chicken Hell</h5>
+                            <p>On The Way</p>
+                        </div>
+                        <p class="ms-auto pt-5 mx-4 fs-6 text-secondary">3:09 PM</p>
+                    </div>
+                    <div class="purchase p-1 my-2 d-flex justify-content-start rounded shadow">
+                        <img src="assets/image/menuMini/Image1.svg" class="mx-3 rounded-pill" width="70" height="auto" alt="" />
+                        <div class="w-auto mt-3">
+                            <h5>Swe Dish</h5>
+                            <p>Delivery</p>
+                        </div>
+                        <p class="ms-auto pt-5 mx-4 fs-6 text-secondary">Yesterday</p>
+                    </div>
+                    <div class="purchase p-1 my-2 d-flex justify-content-start rounded shadow">
+                        <img src="assets/image/menuMini/Image2.svg" class="mx-3 rounded-pill" width="70" height="auto" alt="" />
+                        <div class="w-auto mt-3">
+                            <h5>Fish Hell Veg</h5>
+                            <p class="text-danger">Cancelled</p>
+                        </div>
+                        <p class="ms-auto pt-5 mx-4 fs-6 text-secondary">Yesterday</p>
+                    </div>
+                </div>
+                <div class="col col-lg-6 my-4 py-5">
+                    <div class="p-3 my-5 border rounded shadow">
+                        <div class="d-flex justify-content-between">
+                            <h3 class="">Purchase</h3>
+                            <select class="form-select w-25" aria-label="Default select example">
+                                <option selected value="1">this week</option>
+                                <option value="2">This month</option>
+                                <option value="3">This year</option>
+                            </select>
+                        </div>
+                        <div class="row border rounded my-5 mx-1 px-3">
+                            <div class="d-flex justify-content-start">
+                                <div class="col-1 my-2">
+                                    <img src="/assets/image/icons/wallet.svg" class="mt-3" width="75" height="auto" alt="" />
+                                </div>
+                                <div class="col-4 mx-3 m-3">
+                                    <h5>Expense</h5>
+                                    <span>increased By 10%</span>
+                                </div>
+                                <div class="col-2 ms-auto mt-4">
+                                    <p class="fs-5 fw-bold">$409.00</p>
+                                </div>
+                            </div>
+                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 75%; background: #5C4EAE"></div>
+                            </div>
+                        </div>
+                        <div class="row border rounded my-5 mx-1">
+                            <div class="d-flex justify-content-start">
+                                <div class="col-1 my-2">
+                                    <img src="/assets/image/icons/money.svg" class="mt-3" width="75" height="auto" alt="" />
+                                </div>
+                                <div class="col-4 m-3">
+                                    <h5>Vocher Usage</h5>
+                                    <span>increased By 5%</span>
+                                </div>
+                                <div class="col-2 ms-auto mt-4">
+                                    <p class="fs-5 fw-bold">$45.78</p>
+                                </div>
+                            </div>
+                            <div class="progress my-2 px-1" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 56%; background: #FBAD18"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
