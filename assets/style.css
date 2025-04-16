@@ -244,6 +244,14 @@ background-color: var(--bs-violet);
     background-color: var(--bs-violet);
 }
 
+.footer {
+    background-color: #EFEFEF;
+}
+
+.list-group-item a {
+    background-color: #EFEFEF;!important;
+}
+
 @media (max-width: 320px) {
     .trustpilot {
         justify-content: center;
@@ -317,6 +325,7 @@ background-color: var(--bs-violet);
     .cards-dishes {
         grid-template-columns: repeat(4, 1fr);
     }
+
 }
 
 @media (min-width: 1024px) and (max-width: 1920px) {
@@ -331,6 +340,7 @@ background-color: var(--bs-violet);
     .cards-dishes {
         grid-template-columns: repeat(4, 1fr);
     }
+
 }
 
 @media (min-width: 1920px) {
@@ -345,4 +355,5 @@ background-color: var(--bs-violet);
     .cards-dishes {
         grid-template-columns: repeat(4, 1fr);
     }
+
 }

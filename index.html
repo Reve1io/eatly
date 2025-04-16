@@ -304,7 +304,7 @@
             </div>
         </section>
 
-        <section class="reviews container col col-xxl-8 px-4 pb-5 border-top border-bottom">
+        <section class="reviews container col col-xxl-8 px-4 pb-5 border-top">
             <h1 class="my-4 py-5 text-center"><span class="indigo">Customer</span> Say</h1>
             <div class="d-flex justify-content-start gap-5">
                 <article class="review rounded shadow p-3">
@@ -340,20 +340,20 @@
                     <img src="assets/image/icons/yellow-star.svg" width="120" height="auto" alt="" />
                 </article>
             </div>
-            <div class="subscribe d-block d-lg-flex justify-content-between my-4 py-4 shadow">
-                <div class="subscribe-text d-block p-3 mt-5 mx-4 text-center">
+            <div class="subscribe row row-cols-1 row-cols-lg-2 my-4 py-4 shadow">
+                <div class="subscribe-text col-auto col-lg-6 text-center">
                     <p class="h1">GET 50%</p>
-                    <form class="subscribe-form row rounded p-1">
-                        <div class="col-auto p-0">
+                    <form class="subscribe-form row rounded gx-0 p-1">
+                        <div class="col-9 p-0">
                             <label for="exampleFormControlInput1" class="visually-hidden">Enter Your Email Address</label>
-                            <input type="email" class="form-control border-0 text-wrap" id="exampleFormControlInput1" placeholder="Enter Your Email Address">
+                            <input type="email" class="form-control border-0" id="exampleFormControlInput1" placeholder="Enter Your Email Address">
                         </div>
-                        <div class="col-auto p-0">
-                            <button type="submit" class="btn btn-primary border-0">SUBSCRIBE</button>
+                        <div class="col-3 p-0 align-items-end">
+                            <button type="submit" class="btn btn-primary border-0 w-100 text-nowrap">SUBSCRIBE</button>
                         </div>
                     </form>
                 </div>
-                <div class="mt-4 mx-4">
+                <div class="col-auto col-lg-6 text-center d-flex">
                     <img src="assets/image/cards/Food%20Image.svg" width="220" height="auto" alt="" />
                 </div>
             </div>
@@ -361,7 +361,47 @@
 
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+
+        <div class="container col-lg-8 mt-3 py-4">
+            <div class="row my-1 py-1">
+                <div class="col">
+                    <a href="#" class="navbar-brand">
+                        <img src="assets/image/logo.svg" width="46" height="42" alt=""/>
+                        eatly
+                    </a>
+                </div>
+                <div class="col text-end">
+                    <img src="./assets/image/icons/insta.svg" class="m-2" alt="" width="30" height="auto" />
+                    <img src="./assets/image/icons/in.svg" class="m-2" alt="" width="30" height="auto" />
+                    <img src="./assets/image/icons/facebook.svg" class="m-2" alt="" width="13" height="auto" />
+                    <img src="./assets/image/icons/twitter.svg" class="m-2" alt="" width="30" height="auto" />
+                </div>
+            </div>
+            <div class="row d-block d-lg-flex">
+                <div class="col col-lg-6 order-lg-2">
+                    <ul class="list-group list-group-flush list-group-horizontal-lg w-100 border-0 d-lg-flex justify-content-end">
+                        <li class="list-group-item p-0 border-0">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="list-group-item p-0 border-0">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="list-group-item p-0 border-0">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="list-group-item p-0 border-0">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col col-lg-6 order-lg-1 text-center text-lg-start">
+                    <p class="mt-2">© 2023 EATLY All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
