@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
@@ -39,9 +40,35 @@
                 <button class="btn btn-login">Login</button>
                 <button class="btn btn-signup">Sign Up</button>
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <img src="./assets/image/menu.svg" class="dark" width="32" height="22" alt=""/>
             </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="navbar-brand">
+                        <img src="assets/image/logo.svg" width="46" height="42" alt=""/>
+                        eatly
+                    </a>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="col col-lg-6 order-lg-2">
+                        <ul class="list-group list-group-flush list-group-horizontal-lg w-100 border-0 d-lg-flex justify-content-end">
+                            <li class="list-group-item p-0 border-0">
+                                <a class="nav-link" href="#">Menu</a>
+                            </li>
+                            <li class="list-group-item p-0 border-0">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="list-group-item p-0 border-0">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="list-group-item p-0 border-0">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </Nav>
     </header>
 
@@ -49,7 +76,7 @@
 
         <section class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row align-items-center g-5 py-2">
-                <div class="col-lg-6 text-center text-lg-start">
+                <div class="col-lg-6 text-center text-lg-start animate__animated animate__slideInLeft">
                     <span class="over">OVER 1000 USERS</span>
                     <h1>Enjoy Foods Over <span class="indigo">World</span></h1>
                     <p class="text p-2 p-lg-0">Eatly help you set saving goals, earn cash back offers, Go to disclaimer for more details and get paychecks up to two days early. Get a $20 bonus.
@@ -64,38 +91,40 @@
                         <span class="mt-1">4900+</span>
                     </div>
                 </div>
-                <div class="col col-lg-6 d-flex justify-content-center">
+                <div class="col col-lg-6 d-flex justify-content-center animate__animated animated__slideInRight">
                     <img src="assets/image/Hero.svg" class="mx-lg-auto img-fluid" width="700" height="auto" loading="lazy" alt="" />
                 </div>
             </div>
         </section>
 
-        <section class="container-fluid features col  py-5">
-            <div class="row d-block d-lg-flex flex-lg-row py-3 px-3 text-center items-align-center">
+        <section class="features py-5">
+            <div class="container col col-xxl-8">
+            <div class="row d-block d-lg-flex py-3 px-3 text-center align-items-center">
                 <div class="statistic col col-lg-4 pb-5">
                     <h1 class="">10K+</h1>
                     <span>Satisfied Costumers All Great Over <br> The World</span>
                 </div>
-                <div class="statistic col col-lg-4 pb-5">
+                <div class="statistic col col-lg-4 py-5">
                     <h1 class="">4M</h1>
                     <span>Healthy Dishes Sold Including Milk Shakes Smooth</span>
                 </div>
-                <div class="col col-lg-4">
+                <div class="col col-lg-4 pt-5">
                     <h1 class="">99.99%</h1>
                     <span>Reliable Customer Support We Provide Great Experiences</span>
                 </div>
+            </div>
             </div>
         </section>
 
         <section class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center py-5">
-                <div class="col-lg-6 text-center text-lg-start">
+                <div class="col-lg-6 text-center text-lg-start animate__animated animate__slideInRight">
                     <h1 class="py-3">Premium <span class="indigo">Quality</span>  For Your Health</h1>
                     <p class="text py-3">Premium quality food is made with ingredients that are packed with essential vitamins, minerals.</p>
                     <p class="text py-3">These foods promote overall wellness by support healthy digestion and boosting immunity</p>
-                    <button class="btn-signup py-4 px-5">Download ➔</button>
+                    <button class="btn-signup py-3 px-4 border-0 shadow">Download ➔</button>
                 </div>
-                <div class="col-lg-6 text-center text-lg-start mt-lg-4">
+                <div class="col-lg-6 text-center text-lg-start mt-5 animate__animated animate__slideInLeft">
                     <img src="assets/image/MobileScreen.svg" class="mx-lg-auto img-fluid" width="300" height="auto" loading="lazy" alt="" />
                 </div>
             </div>
@@ -382,16 +411,16 @@
                 <div class="col col-lg-6 order-lg-2">
                     <ul class="list-group list-group-flush list-group-horizontal-lg w-100 border-0 d-lg-flex justify-content-end">
                         <li class="list-group-item p-0 border-0">
-                            <a class="nav-link" href="#">Menu</a>
+                            <a class="nav-link" href="#" style="background-color: #EFEFEF">Menu</a>
                         </li>
                         <li class="list-group-item p-0 border-0">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link" href="#" style="background-color: #EFEFEF">Blog</a>
                         </li>
                         <li class="list-group-item p-0 border-0">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#" style="background-color: #EFEFEF">Pricing</a>
                         </li>
                         <li class="list-group-item p-0 border-0">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#" style="background-color: #EFEFEF">Contact</a>
                         </li>
                     </ul>
                 </div>

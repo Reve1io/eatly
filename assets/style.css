@@ -248,10 +248,6 @@ background-color: var(--bs-violet);
     background-color: #EFEFEF;
 }
 
-.list-group-item a {
-    background-color: #EFEFEF;!important;
-}
-
 @media (max-width: 320px) {
     .trustpilot {
         justify-content: center;
