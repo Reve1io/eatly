@@ -167,6 +167,11 @@ background-color: var(--bs-violet);
     border: none;
 }
 
+.card:hover {
+    animation: zoomIn;
+    animation-duration: 1s;
+}
+
 .card-img-top {
     border-top-left-radius: 23px!important;
     border-top-right-radius: 23px!important;
